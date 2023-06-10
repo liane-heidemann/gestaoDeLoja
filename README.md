@@ -1,4 +1,4 @@
-# jestaoDeLoja
+# Sistema para Jestâo de Loja
 
 Sistema de Gerenciamento de Estoque (Loja de Roupas):
 A loja possui os itens: Roupas, calçados e acessórios.
