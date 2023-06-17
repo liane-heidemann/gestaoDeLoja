@@ -2,7 +2,7 @@ var continuar = true;
 var opcao;
 var removerProduto;
 
-//ITENS NO ESTOQUE 
+//ESTOQUE DA LOJA
 var itensDoEstoque = [{
     produto: "Roupas",
     valor: 60,
