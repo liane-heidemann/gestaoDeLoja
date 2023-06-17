@@ -1,3 +1,8 @@
+var continuar = true;
+var opcao;
+var removerProduto;
+
+//ITENS NO ESTOQUE 
 var itensDoEstoque = [{
     produto: "Roupas",
     valor: 60,
@@ -11,11 +16,10 @@ var itensDoEstoque = [{
     valor: 80,
     quantidade: 9
 }];
-console.log(
-    "1 -> Exibir Estoque Completo\n2 -> Adicionar Item no Estoque\n3 - > Remover Produto do Estoque\n4 - > Editar produto\n5 - > Buscar Item\n6 -> Sair\n"
-    );
-var continuar = true;
-var opcao;
+
+console.log("1 -> Exibir Estoque Completo\n2 -> Adicionar Item no Estoque\n3 - > Remover Produto do Estoque\n4 - > Editar produto\n5 - > Buscar Item\n6 -> Sair\n");
+
+//LISTA DE OPÇÕES 
 while (continuar) {
     opcao = prompt("\nEscolha uma Opção: ");
     switch (opcao) {
@@ -68,7 +72,6 @@ function addItemNoEstoque() {
         return;
     }
 }
-var removerProduto;
 
 function removerItemNoEstoque() {
     removerProduto = prompt("Nome do Produto a ser Removido: ");
