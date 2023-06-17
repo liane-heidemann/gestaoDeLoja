@@ -1,5 +1,8 @@
 var continuar = true;
 var opcao;
+var produtoX;
+var valorX;
+var quantidadeX;
 var removerProduto;
 
 //ESTOQUE DA LOJA
@@ -51,9 +54,6 @@ function printArray(itensDoEstoque) {
             ", Quantidade: " + itensDoEstoque[i].quantidade);
     }
 }
-var produtoX;
-var valorX;
-var quantidadeX;
 
 function addItemNoEstoque() {
     produtoX = prompt("Nome do Produto: ");
